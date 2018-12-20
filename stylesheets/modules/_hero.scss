@@ -1,0 +1,29 @@
+.c-hero {
+  background: url("/assets/construction.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.c-hero__logo {
+
+}
+
+.c-hero__headline {
+  color: white;
+  font-size: 7rem;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-family: OpenSansBold, sans-serif;
+}
+
+.c-hero__button {
+  background-color: yellow;
+  padding: 24px 48px;
+  color: black;
+  text-align: center;
+  font-family: OpenSansBold;
+  font-size: 1.5rem;
+  margin-left: 200px;
+}

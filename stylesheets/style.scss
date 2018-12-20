@@ -5,9 +5,8 @@
 @import "animations";
 @import "mixins";
 
+@import "modules/index";
 
-// Pages
-@import "home";
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +28,5 @@ a {
 
 .site-wrapper {
   width: 100%;
-  font-family: $font-stack;
   overflow: hidden;
 }

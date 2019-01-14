@@ -1,0 +1,29 @@
+.c-newsletter {
+  padding: 10% 0;
+}
+
+.c-newsletter__headline {
+  @extend .c-carousel__headline;
+  text-decoration: underline;
+  text-decoration-color: $peakYellow;
+  width: 100px;
+}
+
+.c-newsletter__copy {
+  width: 80%;
+  margin: 3% auto 3% 10%;
+  font-family: OpenSansBold;
+  color: $textGray;
+}
+
+.c-newsletter__email {
+  border: 2px solid black;
+  padding: 12px;
+  width: 60%;
+  margin: 5% auto 5% 10%;
+  display: block;
+}
+
+.c-newsletter__btn {
+  @include cta($peakYellow);
+}

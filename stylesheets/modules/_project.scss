@@ -1,0 +1,42 @@
+.c-project {
+}
+
+.c-project__location {
+
+}
+
+.c-project__map-img {
+
+}
+
+.c-project__img {
+
+}
+
+.c-project__details {
+  margin-left: 10%;
+  .c-read-more {
+    margin-left: 0;
+  }
+}
+
+.c-project__headline {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 3% auto;
+}
+
+.c-project__stat {
+  font-family: OpenSansBold, sans-serif;
+  color: $textGray;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 3%;
+  &:last-of-type {
+    margin-bottom: 10%;
+  }
+  span {
+    color: black;
+  }
+}

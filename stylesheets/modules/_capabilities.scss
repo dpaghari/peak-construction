@@ -1,10 +1,46 @@
 .c-capabilities {
+  padding: 10% 0;
   background: #fff;
-  margin-left: 20px;
   width: 100%;
   display: inline-block;
-  border: 1px solid #000;
-  transform: skewX(-10deg);
   position: relative;
   top: -24px;
+}
+
+.c-capabilities__headline {
+  font-family: DrukTextBold, sans-serif;
+  font-size: 1.3rem;
+  border-bottom: 1px solid $peakYellow;
+  display: inline-block;
+  margin: 3% auto 3% 12%;
+}
+
+.c-capabilities__slide {
+
+}
+
+.c-capabilities__slide-headline {
+  text-transform: uppercase;
+  font-family: DrukTextWideBold, sans-serif;
+  margin-left: 12%;
+  margin-bottom: 3%;
+  font-size: 2rem;
+}
+
+.c-capabilities__slide-copy {
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1rem;
+  color: $charcoal;
+  width: 80%;
+  margin: 0 auto 3% 12%;
+}
+
+.c-read-more {
+  color: $peakBlue;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin-left: 12%;
+  font-family: OpenSansBold, sans-serif;
+  letter-spacing: 0.1rem;
+  padding-bottom: 2%;
 }

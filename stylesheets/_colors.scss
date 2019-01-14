@@ -11,3 +11,17 @@ $winterWhite: #ECEFF1;
 
 
 $blueGray: #263238;
+
+
+$peakYellow: rgb(245, 219, 51);
+$textGray: rgb(116, 111, 121);
+$peakBlue: rgb(108, 162, 214);
+
+
+.h-text-color--yellow {
+  color: $peakYellow;
+}
+
+.h-bg-color--yellow {
+  background-color: $peakYellow;
+}

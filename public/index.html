@@ -7,6 +7,8 @@
     <meta name="robots" content="Index, Follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/lib/slick-1.8.1/slick/slick-theme.css">
     <title>Peak Construction Corporation</title>
   </head>
   <body>
@@ -15,66 +17,71 @@
       <nav class="c-nav"></nav>
       <section class="c-hero">
         <img class="c-hero__logo" src=""/>
-        <h1 class="c-hero__headline">Build Value. <br/>Design Build</h1>
+        <h1 class="c-hero__headline">Build Value<span class="h-text-color--yellow">.</span><br/>Design Build<span class="h-text-color--yellow">.</span></h1>
         <button class="c-hero__button">Button</button>
       </section>
+      
       <section class="c-capabilities">
+        <h2 class="c-capabilities__headline c-carousel__headline">Capabilities</h2>
         <article class="c-capabilities__slide c-text-callout">
-          <h3 class="c-capabilities__headline">Industrial</h3>
-          <p class="c-capabilities__copy"></p>
+          <h3 class="c-capabilities__slide-headline c-carousel__slide-headline">Industrial</h3>
+          <p class="c-capabilities__slide-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde est aliquam culpa deserunt consectetur ut corrupti asperiores veritatis maiores dignissimos deleniti vitae itaque nemo eos recusandae libero, dolore maxime accusantium!</p>
           <a href="" class="c-read-more">Read More</a>
         </article>
-        <button class="c-capabilities__btn c-capabilities__btn--back"><<</button>
-        <button class="c-capabilities__btn c-capabilities__btn--next">>></button>
+        <button class="c-capabilities__btn c-capabilities__btn--back c-carousel__btn--back"><<</button>
+        <button class="c-capabilities__btn c-capabilities__btn--next c-carousel__btn--next">>></button>
       </section>
+
       <section class="c-img-callout--masked">
         <img src="" alt="" class="c-img-callout__img">
       </section>
-      <section class="c-geo-carousel">
-        <button class="c-geo-carousel__btn c-geo-carousel__btn--back"><<</button>
-        <button class="c-geo-carousel__btn c-geo-carousel__btn--next">>></button>
-      </section>
       <section class="c-project-carousel">
-        <article class="c-project">
-          <img src="" alt="" class="c-projectl__img">
-          <h3 class="c-project__headline">Project Name</h3>
-          <p class="c-project__stat">Sq. ft. <span>34,7205</span></p>
-          <p class="c-project__stat">Architect: <span>Heitman Architects Incorporated</span></p>
-          <p class="c-project__stat">Building Type: <span>New Construction</span></p>
-          <p class="c-project__stat">Challenge: <span>Riddell conducted a highly confidential and comprehensive optimization analysis for their new northeast Ohio site selection.</span></p>
-          <a href="" class="read-more">Read More</a>
-        </article>
+        <h2 class="c-project-carousel__headline c-carousel__headline">Recent Projects In:</h2>
+        <div class="c-project-carousel__slides">
+          <article class="c-project">
+            <h3 class="c-project__location c-carousel__slide-headline">Ohio</h3>
+            <img class="c-project__map-img" alt="" />
+            <img src="" alt="" class="c-project__img">
+            <div class="c-project__details">
+              <h3 class="c-project__headline">Project Name</h3>
+              <p class="c-project__stat">Sq. ft. <span>34,7205</span></p>
+              <p class="c-project__stat">Architect: <span>Heitman Architects Incorporated</span></p>
+              <p class="c-project__stat">Building Type: <span>New Construction</span></p>
+              <p class="c-project__stat">Challenge: <span>Riddell conducted a highly confidential and comprehensive optimization
+                  analysis for their new northeast Ohio site selection.</span></p>
+              <a href="" class="c-read-more">Read More</a>
+            </div>
+          </article>
+          <button class="c-project-carousel c-project-carousel--back"><<</button>
+          <button class="c-project-carousel c-project-carousel--next">>></button>
+        </div>
       </section>
       <section class="c-img-quote">
-        <h4 class="c-img-quote__quote">"Good people doing the right thing."</h4>
+        <h4 class="c-img-quote__quote"><p class="h-text-color--yellow l-text-align--left">"</p>Good people doing the right thing.<p class="h-text-color--yellow l-text-align--right">"</p></h4>
       </section>
-      <article class="c-carousel__slide c-text-callout">
-        <h3 class="c-carousel__headline">Industrial</h3>
-        <p class="c-carousel__copy"></p>
-        <a href="" class="c-read-more">Read More</a>
-      </article>
       <section class="c-img-callout--masked">
         <img src="" alt="" class="c-img-callout__img">
       </section>
       <section class="c-newsletter">
         <h4 class="c-newsletter__headline">Newsletter Signup</h4>
-        <p>Stay up to date with Peak Construction and what we're working on.</p>
+        <p class="c-newsletter__copy">Stay up to date with Peak Construction and what we're working on.</p>
         <input class="c-newsletter__email" type="email"/>
         <button class="c-newsletter__btn">Sign Up</button>
       </section>
     </main>
     <section class="c-vanity-stat">
-      <h2 class="c-vanity-stat__stat">287</h2>
-      <span class="c-vanity-stat__copy">Successful Projects</span>
+      <h2 class="c-vanity-stat__headline">287</h2>
+      <p class="c-vanity-stat__subheadline">Successful Projects</p>
     </section>
     <footer class="c-footer">
       <div class="c-footer__link-container">
         <a href="" class="c-footer__link">Learn more about careers at Peak Construction</a>
       </div>
-      footer
     </footer>
   <script src="lib/jquery-3.2.1.min.js"></script>
   <script src="lib/noframework.waypoints.min.js" charset="utf-8"></script>
+  <script src="lib/slick-1.8.1/slick/slick.min.js" charset="utf-8"></script>
+
   <script src="client.min.js" charset="utf-8"></script>
 
   </body>

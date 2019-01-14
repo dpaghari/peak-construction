@@ -1,0 +1,16 @@
+.c-img-quote {
+  min-height: 40vh;
+  background: $winterWhite;
+  padding: 24px 0;
+}
+
+.c-img-quote__quote {
+  font-size: 3rem;
+  font-family: DrukTextBold, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 3.2rem;
+  p {
+    font-family: OpenSansBold, sans-serif;
+  }
+}

@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .c-hero__logo {
@@ -12,18 +12,21 @@
 
 .c-hero__headline {
   color: white;
-  font-size: 7rem;
-  margin-top: 200px;
-  margin-left: 200px;
-  font-family: OpenSansBold, sans-serif;
+  font-size: 6rem;
+  font-family: DrukTextBold, OpenSansBold, sans-serif;
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-top: 20%;
 }
 
 .c-hero__button {
-  background-color: yellow;
-  padding: 24px 48px;
+  background-color: $peakYellow;
+  padding: 18px 36px;
   color: black;
+  border: none;
   text-align: center;
-  font-family: OpenSansBold;
-  font-size: 1.5rem;
-  margin-left: 200px;
+  font-family: DrukTextWideBold, sans-serif;
+  font-size: 0.8rem;
+  margin-left: 10%;
+  text-transform: uppercase;
 }

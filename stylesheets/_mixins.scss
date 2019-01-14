@@ -1,26 +1,13 @@
-@mixin theme_input() {
-  border-width: 0;
-  border-color: #cdcdcd;
-  padding: $space/2;
-  box-shadow: 0px 1px 1px #cdcdcd;
-}
-
-@mixin theme_button($btnColor) {
-  background: $btnColor;
-  color: #fff;
-  padding: $space/2 $space;
-  transition: 0.3s all;
-  box-shadow: 0px 1px 1px darken($btnColor, 5%);
-  border-width: 0;
-  border: 1px solid darken($btnColor, 5%);
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1em;
+@mixin cta($btnColor) {
+  background-color: $btnColor;
+  padding: 18px 36px;
+  color: black;
+  border: none;
   text-align: center;
-  &:hover {
-    background: darken($btnColor, 5%);
-    box-shadow: none;
-  }
+  font-family: DrukTextWideBold, sans-serif;
+  font-size: 0.8rem;
+  margin-left: 10%;
+  text-transform: uppercase;
 }
 
 
@@ -28,4 +15,14 @@
   @media screen and (min-width: #{$breakpoint}) {
     @content;
   }
+}
+
+.l-text-align--left {
+  text-align: left;
+}
+.l-text-align--center {
+  text-align: center;
+}
+.l-text-align--right {
+  text-align: right;
 }

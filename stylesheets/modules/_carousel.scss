@@ -1,0 +1,29 @@
+.c-carousel__headline {
+  font-family: DrukTextBold, sans-serif;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-color: $peakYellow;
+  // border-bottom: 1px solid $peakYellow;
+  display: inline-block;
+  margin: 3% auto 3% 12%;
+}
+
+.c-carousel__slide {
+
+}
+
+.c-carousel__slide-headline {
+  text-transform: uppercase;
+  font-family: DrukTextWideBold, sans-serif;
+  margin-left: 12%;
+  margin-bottom: 3%;
+  font-size: 2rem;
+}
+
+.c-carousel__slide-copy {
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1rem;
+  color: $charcoal;
+  width: 80%;
+  margin: 0 auto 3% 12%;
+}

@@ -1,3 +1,20 @@
+.c-project-carousel {
+  
+}
+
+.c-project-carousel__btn {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  &--back {
+    @extend .c-project-carousel__btn;
+    margin-left: 12%;
+  }
+  &--next {
+    @extend .c-project-carousel__btn;
+    margin-left: 2%;
+  }
+}
+
 .c-project {
 }
 
@@ -40,3 +57,4 @@
     color: black;
   }
 }
+

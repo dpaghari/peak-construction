@@ -6,9 +6,9 @@
     <meta name="author" content=""/>
     <meta name="robots" content="Index, Follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="/lib/slick-1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="/lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./lib/slick-1.8.1/slick/slick-theme.css">
     <title>Peak Construction Corporation</title>
   </head>
   <body>
@@ -22,18 +22,22 @@
       </section>
       
       <section class="c-capabilities">
-        <h2 class="c-capabilities__headline c-carousel__headline">Capabilities</h2>
-        <article class="c-capabilities__slide c-text-callout">
-          <h3 class="c-capabilities__slide-headline c-carousel__slide-headline">Industrial</h3>
-          <p class="c-capabilities__slide-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde est aliquam culpa deserunt consectetur ut corrupti asperiores veritatis maiores dignissimos deleniti vitae itaque nemo eos recusandae libero, dolore maxime accusantium!</p>
-          <a href="" class="c-read-more">Read More</a>
-        </article>
-        <button class="c-capabilities__btn c-capabilities__btn--back c-carousel__btn--back"><<</button>
-        <button class="c-capabilities__btn c-capabilities__btn--next c-carousel__btn--next">>></button>
+        <div class="c-capabilities__wrapper">
+          <h2 class="c-capabilities__headline c-carousel__headline">Capabilities</h2>
+          <article class="c-capabilities__slide c-text-callout">
+            <h3 class="c-capabilities__slide-headline c-carousel__slide-headline">Industrial</h3>
+            <p class="c-capabilities__slide-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde est aliquam
+              culpa deserunt consectetur ut corrupti asperiores veritatis maiores dignissimos deleniti vitae itaque nemo eos
+              recusandae libero, dolore maxime accusantium!</p>
+            <a href="" class="c-read-more">Read More</a>
+          </article>
+          <button class="c-capabilities__btn--back c-carousel__btn--back"><<</button> 
+          <button class="c-capabilities__btn--next c-carousel__btn--next">>></button>
+        </div>
       </section>
 
       <section class="c-img-callout--masked">
-        <img src="" alt="" class="c-img-callout__img">
+        <img src="./assets/construction-2.jpg" alt="" class="c-img-callout__img">
       </section>
       <section class="c-project-carousel">
         <h2 class="c-project-carousel__headline c-carousel__headline">Recent Projects In:</h2>
@@ -52,20 +56,33 @@
               <a href="" class="c-read-more">Read More</a>
             </div>
           </article>
-          <button class="c-project-carousel c-project-carousel--back"><<</button>
-          <button class="c-project-carousel c-project-carousel--next">>></button>
+          <button class="c-project-carousel__btn--back c-carousel__btn--back"><<</button>
+          <button class="c-project-carousel__btn--next c-carousel__btn--next">>></button>
         </div>
       </section>
       <section class="c-img-quote">
         <h4 class="c-img-quote__quote"><p class="h-text-color--yellow l-text-align--left">"</p>Good people doing the right thing.<p class="h-text-color--yellow l-text-align--right">"</p></h4>
       </section>
+      <section class="c-capabilities">
+        <div class="c-capabilities__wrapper">
+          <h2 class="c-capabilities__headline c-carousel__headline">Our Culture</h2>
+          <article class="c-capabilities__slide c-text-callout">
+            <h3 class="c-capabilities__slide-headline c-carousel__slide-headline">Working at Peak</h3>
+            <p class="c-capabilities__slide-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde est aliquam
+              culpa deserunt consectetur ut corrupti asperiores veritatis maiores dignissimos deleniti vitae itaque nemo eos
+              recusandae libero, dolore maxime accusantium!</p>
+            <a href="" class="c-read-more">Read More</a>
+          </article>
+          <button class="c-hero__button">Button</button>
+        </div>
+      </section>
       <section class="c-img-callout--masked">
-        <img src="" alt="" class="c-img-callout__img">
+        <img src="./assets/construction-3.jpg" alt="" class="c-img-callout__img">
       </section>
       <section class="c-newsletter">
         <h4 class="c-newsletter__headline">Newsletter Signup</h4>
         <p class="c-newsletter__copy">Stay up to date with Peak Construction and what we're working on.</p>
-        <input class="c-newsletter__email" type="email"/>
+        <input class="c-newsletter__email" placeholder="name@email.com" type="email"/>
         <button class="c-newsletter__btn">Sign Up</button>
       </section>
     </main>

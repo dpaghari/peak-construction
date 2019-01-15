@@ -29,6 +29,8 @@
     "webpack-cli": "^2.0.14"
   },
   "devDependencies": {
-    "browser-sync-webpack-plugin": "^2.2.2"
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "file-loader": "^3.0.1",
+    "url-loader": "^1.1.2"
   }
 }

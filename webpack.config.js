@@ -72,15 +72,11 @@ module.exports = {
       ]
     },
     {
-      test: /\.(jpe?g|png|gif|svg)$/i,
-      loader: "file-loader?name=[path][name].[ext]"
-    },
-    {
-      test: /\.css$/,
-      use: [
-        MiniCssExtractPlugin.loader,
-        "css-loader"
-      ]
+      test: /\.(jpe?g|png|gif|svg|woff|otf|ttf)$/i,
+      loader: "url-loader",
+      options: {
+        limit: 10000
+      }
     }
   ],
   },

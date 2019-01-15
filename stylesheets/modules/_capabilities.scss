@@ -1,10 +1,21 @@
 .c-capabilities {
-  padding: 10% 0;
+  margin: 10% 0;
   background: #fff;
   width: 100%;
   display: inline-block;
   position: relative;
-  top: -24px;
+  // top: -24px;
+  z-index: 2;
+}
+
+.c-capabilities__wrapper {
+    position: absolute;
+    top: -84px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 1;
 }
 
 .c-capabilities__headline {
@@ -12,7 +23,7 @@
   font-size: 1.3rem;
   border-bottom: 1px solid $peakYellow;
   display: inline-block;
-  margin: 3% auto 3% 12%;
+  margin: 12% auto 3% 12% !important;
 }
 
 .c-capabilities__slide {
@@ -24,15 +35,18 @@
   font-family: DrukTextWideBold, sans-serif;
   margin-left: 12%;
   margin-bottom: 3%;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .c-capabilities__slide-copy {
   font-family: OpenSansSemiBold, sans-serif;
   font-size: 1rem;
   color: $charcoal;
-  width: 80%;
+  width: 50%;
   margin: 0 auto 3% 12%;
+  @include media($desktop) {
+    width: 25%;
+  }
 }
 
 .c-read-more {
@@ -42,5 +56,18 @@
   margin-left: 12%;
   font-family: OpenSansBold, sans-serif;
   letter-spacing: 0.1rem;
-  padding-bottom: 2%;
+  padding-bottom: 4px;
+}
+
+.c-capabilities__btn {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  &--back {
+    @extend .c-capabilities__btn;
+    margin-left: 12%;
+  }
+  &--next {
+    @extend .c-capabilities__btn;
+    margin-left: 2%;
+  }
 }

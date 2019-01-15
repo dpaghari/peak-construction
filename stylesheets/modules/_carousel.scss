@@ -3,7 +3,6 @@
   font-size: 1.3rem;
   text-decoration: underline;
   text-decoration-color: $peakYellow;
-  // border-bottom: 1px solid $peakYellow;
   display: inline-block;
   margin: 3% auto 3% 12%;
 }
@@ -17,7 +16,7 @@
   font-family: DrukTextWideBold, sans-serif;
   margin-left: 12%;
   margin-bottom: 3%;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .c-carousel__slide-copy {
@@ -26,4 +25,24 @@
   color: $charcoal;
   width: 80%;
   margin: 0 auto 3% 12%;
+}
+
+.c-carousel__btn {
+  font-family: DrukTextHeavy, sans-serif;
+  font-weight: 900;
+  border: 4px solid $peakYellow;
+  padding: 8px 36px;
+  text-align: center;
+  font-size: 1.4rem;
+  background: white;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background: $peakYellow;
+  }
+  &--back {
+    @extend .c-carousel__btn;
+  }
+  &--next {
+    @extend .c-carousel__btn;
+  }
 }

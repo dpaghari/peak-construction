@@ -1,9 +1,12 @@
 .c-hero {
-  background: url("/assets/construction.jpg");
+  background: url(assets/construction.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  @include media($desktop) {
+    height: 70vh;
+  }
 }
 
 .c-hero__logo {
@@ -17,11 +20,17 @@
   text-transform: uppercase;
   margin-left: 10%;
   margin-top: 20%;
+  @include media($desktop) {
+    font-size: 8rem;
+    margin-bottom: 5%;
+  } 
 }
 
 .c-hero__button {
   background-color: $peakYellow;
   padding: 18px 36px;
+  position: relative;
+  z-index: 3;
   color: black;
   border: none;
   text-align: center;

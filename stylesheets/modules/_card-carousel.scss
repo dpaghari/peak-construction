@@ -1,10 +1,8 @@
-.c-portrait-carousel {
-  padding: 32px 0;
+.c-card-carousel {
+
 }
 
-
-
-.c-portrait-carousel__details {
+.c-card-carousel__slides {
   width: 80%; 
   margin: 5% auto;
   background-size: cover;
@@ -17,30 +15,31 @@
   align-items: flex-start;
 }
 
+.c-card-carousel__card {
+  @extend %card;
+}
 
-
-.c-portrait-carousel__card-headline {
+.c-card-carousel__card-headline {
+  color: $charcoal;
+  font-size: 2rem;
   font-family: DrukTextBold;
-  color: white;
-  margin-left: 10%;
   margin-bottom: 5%;
-  font-size: 1.5rem;
 }
-.c-portrait-carousel__card-stat {
-  font-family: OpenSansLight;
-  color: white;
-  margin-left: 10%;
-  margin-bottom: 2%;
-  &:last-of-type {
-    margin-bottom: 10%;
-  }
+.c-card-carousel__card-text {
+  color: $aNiceGray;
+  font-size: 1.2rem;
+  font-family: OpenSans;
+  margin-bottom: 5%;
 }
 
-.c-portrait-carousel__dot-container {
+
+
+.c-card-carousel__dot-container {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  margin-top: 5%;
   li {
     width: 24px;
     height: 24px;
@@ -56,7 +55,7 @@
   }
 }
 
-.c-portrait-carousel__card-btn {
-  @extend %cta--ghost;
+.c-card-carousel__card-btn {
+  @extend %cta;
   margin-bottom: 10%;
 }

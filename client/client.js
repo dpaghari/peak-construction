@@ -26,8 +26,17 @@ $(document).ready(function (){
     adaptiveHeight: true,
   });
   $('.c-portrait-carousel__slides').slick({
-    prevArrow: $('.c-portrait-carousel__btn--back'),
-    nextArrow: $('.c-portrait-carousel__btn--next'),
+    arrows: false,
+    dots: true,
+    dotsClass: 'c-portrait-carousel__dot-container',
+    slidesToShow: 1,
+    infinite: true,
+    adaptiveHeight: true,
+  });
+  $('.c-card-carousel__slides').slick({
+    arrows: false,
+    dots: true,
+    dotsClass: 'c-card-carousel__dot-container',
     slidesToShow: 1,
     infinite: true,
     adaptiveHeight: true,

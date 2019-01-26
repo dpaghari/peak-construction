@@ -1,0 +1,42 @@
+.c-portrait-carousel {
+  padding: 32px 0;
+}
+
+
+
+.c-portrait-carousel__details {
+  width: 80%; 
+  margin: 5% auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+
+.c-portrait-carousel__card-headline {
+  font-family: DrukTextBold;
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+}
+.c-portrait-carousel__card-stat {
+  font-family: OpenSansLight;
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  &:last-of-type {
+    margin-bottom: 10%;
+  }
+}
+
+.c-portrait-carousel__card-btn {
+  @extend %cta--ghost;
+  margin-bottom: 10%;
+}

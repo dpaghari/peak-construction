@@ -4,6 +4,7 @@
   display: inline-block;
   position: relative;
   z-index: 2;
+  padding-bottom: 32px;
 }
 
 .c-capabilities__headline {
@@ -11,11 +12,7 @@
   font-size: 1.3rem;
   border-bottom: 1px solid $peakYellow;
   display: inline-block;
-  margin: 12% auto 3% 12% !important;
-}
-
-.c-capabilities__slide {
-
+  margin: 12% auto 5% 12% !important;
 }
 
 .c-capabilities__slide-headline {
@@ -24,6 +21,8 @@
   margin-left: 12%;
   margin-bottom: 3%;
   font-size: 1.4rem;
+  width: 50%;
+  line-height: 2rem;
 }
 
 .c-capabilities__slide-copy {

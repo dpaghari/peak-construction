@@ -1,0 +1,25 @@
+%cta {
+  background-color: $peakYellow;
+  padding: 18px 36px;
+  z-index: 3;
+  color: black;
+  border: none;
+  text-align: center;
+  font-family: DrukTextWideBold, sans-serif;
+  font-size: 0.8rem;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+
+%cta--ghost {
+  background: none;
+  padding: 18px 36px;
+  z-index: 3;
+  color: white;
+  border: 3px solid $peakYellow;
+  text-align: center;
+  font-family: DrukTextWideBold, sans-serif;
+  font-size: 0.8rem;
+  margin-left: 10%;
+  text-transform: uppercase;
+}

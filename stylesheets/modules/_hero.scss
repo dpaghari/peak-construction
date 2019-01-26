@@ -19,7 +19,7 @@
   margin-top: 5%;
   margin-left: 33%;
   width: 100%;
-  max-width: 180px;
+  max-width: 120px;
 }
 
 .c-hero__headline {
@@ -38,15 +38,5 @@
 }
 
 .c-hero__button {
-  background-color: $peakYellow;
-  padding: 18px 36px;
-  z-index: 3;
-  color: black;
-  border: none;
-  text-align: center;
-  font-family: DrukTextWideBold, sans-serif;
-  font-size: 0.8rem;
-  margin-left: 10%;
-  text-transform: uppercase;
-  bottom: 0;
+  @extend %cta;
 }

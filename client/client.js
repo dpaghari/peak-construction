@@ -16,12 +16,21 @@ $(document).ready(function (){
     nextArrow: $('.c-capabilities__btn--next'),
     slidesToShow: 1,
     infinite: true,
+    adaptiveHeight: true,
   });
-  // $('.c-capabilities .c-carousel').slick({
-  //   prevArrow: $('.c-capabilities__btn--back'),
-  //   nextArrow: $('.c-capabilities__btn--next'),
-  //   slidesToShow: 1,
-  //   infinite: true,
-  // });
+  $('.c-project-carousel__slides').slick({
+    prevArrow: $('.c-project-carousel__btn--back'),
+    nextArrow: $('.c-project-carousel__btn--next'),
+    slidesToShow: 1,
+    infinite: true,
+    adaptiveHeight: true,
+  });
+  $('.c-portrait-carousel__slides').slick({
+    prevArrow: $('.c-portrait-carousel__btn--back'),
+    nextArrow: $('.c-portrait-carousel__btn--next'),
+    slidesToShow: 1,
+    infinite: true,
+    adaptiveHeight: true,
+  });
 
 });

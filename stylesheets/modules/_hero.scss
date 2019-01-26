@@ -1,16 +1,25 @@
 .c-hero {
-  background: url(assets/construction.jpg);
+  position: relative;
+  overflow: hidden;
+}
+
+.c-hero__carousel {
+  width: 100%;
+}
+
+.c-hero__slide {
+  width: 100%;
+  padding-bottom: 60px;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  @include media($desktop) {
-    height: 70vh;
-  }
+  background-repeat: no-repeat;
 }
 
 .c-hero__logo {
-
+  margin-top: 5%;
+  margin-left: 33%;
+  width: 100%;
+  max-width: 180px;
 }
 
 .c-hero__headline {
@@ -19,7 +28,9 @@
   font-family: DrukTextBold, OpenSansBold, sans-serif;
   text-transform: uppercase;
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  z-index: 2;
   @include media($desktop) {
     font-size: 8rem;
     margin-bottom: 5%;
@@ -29,7 +40,6 @@
 .c-hero__button {
   background-color: $peakYellow;
   padding: 18px 36px;
-  position: relative;
   z-index: 3;
   color: black;
   border: none;
@@ -38,4 +48,5 @@
   font-size: 0.8rem;
   margin-left: 10%;
   text-transform: uppercase;
+  bottom: 0;
 }

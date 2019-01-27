@@ -5,7 +5,7 @@
 
 
 .c-portrait-carousel__details {
-  width: 80%; 
+  width: 95%; 
   margin: 5% auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,24 +37,8 @@
 }
 
 .c-portrait-carousel__dot-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  li {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: 3px solid $aNiceGray;
-    margin: 0 12px;
-    cursor: pointer;
-    &.slick-active {
-      border: 3px solid $peakYellow;
-    }
-    button {
-      display: none;
-    }
-  }
+  @extend %dot-container;
+  margin-top: 5%;
 }
 
 .c-portrait-carousel__card-btn {

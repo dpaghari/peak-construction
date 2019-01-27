@@ -30,3 +30,25 @@
   margin-left: 10%;
   text-transform: uppercase;
 }
+
+%dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  li {
+    min-width: 12px;
+    min-height: 12px;
+    border-radius: 50%;
+    border: 2px solid $aNiceGray;
+    margin: 0 12px;
+    cursor: pointer;
+    flex: 0 1 auto;
+    &.slick-active {
+      border: 2px solid $peakYellow;
+    }
+    button {
+      display: none;
+    }
+  }
+}

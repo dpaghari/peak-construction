@@ -30,13 +30,18 @@ $(document).ready(function (){
     dotsClass: 'c-portrait-carousel__dot-container',
     slidesToShow: 1,
     infinite: true,
+    centerMode: true,
+    centerPadding: '20px',
   });
+    
   $('.c-card-carousel__slides').slick({
     arrows: false,
     dots: true,
     dotsClass: 'c-card-carousel__dot-container',
     slidesToShow: 1,
     infinite: true,
+    centerMode: true,
+    centerPadding: '20px',
   });
 
 });

@@ -1,0 +1,37 @@
+.c-section-headline {
+  font-family: DrukTextBold, sans-serif;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  text-decoration-color: $peakYellow;
+  display: inline-block;
+}
+
+.c-headline {
+  text-transform: uppercase;
+  font-family: DrukTextWideBold,sans-serif;
+  font-size: 1.6rem;
+}
+
+.c-subheadline {
+  font-family: DrukTextBold,sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.c-read-more {
+  color: $peakBlue;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin-left: 12%;
+  font-family: OpenSansBold, sans-serif;
+  letter-spacing: 0.1rem;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
+.c-body-text {
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1rem;
+  color: $charcoal;
+  width: 60%;
+}

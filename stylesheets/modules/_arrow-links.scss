@@ -2,14 +2,18 @@
   padding: 32px 0;
 }
 
+.c-arrow-links__headline {
+  margin-left: 20%;
+}
+
 .c-arrow-links__link {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
   border-bottom: 2px solid $aNiceGray;
-  width: 75%;
-  margin: 0 0 0 16%;
+  width: 70%;
+  margin: 0 0 0 20%;
 }
 
 .c-arrow-links__label {

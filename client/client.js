@@ -9,6 +9,8 @@ $(document).ready(function (){
     slidesToScroll: 1,
     slidesToShow: 1,
     infinite: true,
+    dots: true,
+    dotsClass: 'c-hero__carousel-dot-container',
   });
   $('.c-capabilities .c-carousel').slick({
     prevArrow: $('.c-capabilities__btn--back'),

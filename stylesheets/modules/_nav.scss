@@ -1,0 +1,26 @@
+.c-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  &.active {
+    .c-nav__link-wrapper {
+      display: block;
+    }
+  }
+}
+
+.c-nav__menu-btn {
+  font-size: 2rem;
+  background: $peakYellow;
+  color: black;
+  padding: 12px;
+}
+
+.c-nav__link-wrapper {
+  display: none;
+}
+
+.c-nav__link {
+
+}

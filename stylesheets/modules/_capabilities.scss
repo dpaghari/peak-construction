@@ -8,10 +8,7 @@
 }
 
 .c-capabilities__headline {
-  font-family: DrukTextBold, sans-serif;
-  font-size: 1.3rem;
-  border-bottom: 1px solid $peakYellow;
-  display: inline-block;
+  @extend %section-headline;
   margin: 12% auto 5% 12% !important;
 }
 

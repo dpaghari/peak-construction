@@ -1,3 +1,11 @@
+%section-headline {
+  font-family: DrukTextBold, sans-serif;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-decoration-color: $peakYellow;
+  display: inline-block;
+}
+
 %cta {
   background-color: $peakYellow;
   padding: 18px 36px;

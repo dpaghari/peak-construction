@@ -3,10 +3,24 @@
   top: 0;
   left: 0;
   z-index: 4;
+  overflow: visible;
   &.active {
     .c-nav__link-wrapper {
       display: block;
     }
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 33px;
+    right: 0;
+    bottom: 0;
+    background: $peakYellow;
+    width: 100%;
+    z-index: 2;
+    clip-path: polygon(25% 0%, 100% 0%, 40% 100%, 0% 100%);
   }
 }
 
@@ -15,6 +29,9 @@
   background: $peakYellow;
   color: black;
   padding: 12px;
+  position: relative;
+  z-index: 2;
+  border: 0;
 }
 
 .c-nav__link-wrapper {

@@ -54,12 +54,13 @@
   top: 50%;
   transform: translateY(-50%);
   li {
-    width: 24px;
-    height: 24px;
+    min-width: 16px;
+    min-height: 16px;
     border-radius: 50%;
-    border: 3px solid $aNiceGray;
+    border: 2px solid $aNiceGray;
     margin: 12px auto;
     cursor: pointer;
+    flex: 1 1 auto;
     &.slick-active {
       border: 3px solid $peakYellow;
     }

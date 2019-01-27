@@ -1,9 +1,5 @@
 .c-carousel__headline {
-  font-family: DrukTextBold, sans-serif;
-  font-size: 1.3rem;
-  text-decoration: underline;
-  text-decoration-color: $peakYellow;
-  display: inline-block;
+  @extend %section-headline;
   margin: 3% auto 5% 12%;
 }
 

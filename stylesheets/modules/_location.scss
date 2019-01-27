@@ -1,0 +1,33 @@
+.c-location {
+
+}
+
+.c-location__contact-container {
+  
+}
+
+.c-location__contact {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.c-location__contact-label {
+  font-family: OpenSansBold;
+}
+
+.c-location__contact-link {
+  color: $peakBlue;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  font-family: OpenSansBold, sans-serif;
+  letter-spacing: 0.1rem;
+  padding-bottom: 4px;
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  overflow-wrap: break-word;
+}

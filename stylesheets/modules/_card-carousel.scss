@@ -8,7 +8,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -17,6 +16,14 @@
 
 .c-card-carousel__card {
   @extend %card;
+  min-height: 500px !important;
+}
+
+.c-card-carousel__details {
+  min-height: 500px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .c-card-carousel__card-headline {
@@ -46,16 +53,17 @@
     border-radius: 50%;
     border: 3px solid $aNiceGray;
     margin: 0 12px;
+    cursor: pointer;
     &.slick-active {
       border: 3px solid $peakYellow;
     }
     button {
-      font-size: 0;
+      display: none;
     }
   }
 }
 
 .c-card-carousel__card-btn {
   @extend %cta;
-  margin-bottom: 10%;
+  width: 100%;
 }

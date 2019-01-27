@@ -47,16 +47,18 @@
     border-radius: 50%;
     border: 3px solid $aNiceGray;
     margin: 0 12px;
+    cursor: pointer;
     &.slick-active {
       border: 3px solid $peakYellow;
     }
     button {
-      font-size: 0;
+      display: none;
     }
   }
 }
 
 .c-portrait-carousel__card-btn {
   @extend %cta--ghost;
+  margin-left: 10%;
   margin-bottom: 10%;
 }

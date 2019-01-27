@@ -1,0 +1,31 @@
+.c-arrow-links {
+  padding: 32px 0;
+}
+
+.c-arrow-links__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 2px solid $aNiceGray;
+  width: 75%;
+  margin: 0 0 0 16%;
+}
+
+.c-arrow-links__label {
+  font-family: DrukTextBold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: $charcoal;
+  width: 100%;
+}
+
+.c-arrow-links__arrow {
+  width: 18px;
+  height: 18px;
+  transform: rotateY(180deg);
+  path {
+    fill: $peakBlue;
+  }
+}
+

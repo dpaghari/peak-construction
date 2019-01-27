@@ -9,21 +9,18 @@ $(document).ready(function (){
     slidesToScroll: 1,
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
   });
   $('.c-capabilities .c-carousel').slick({
     prevArrow: $('.c-capabilities__btn--back'),
     nextArrow: $('.c-capabilities__btn--next'),
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
   });
   $('.c-project-carousel__slides').slick({
     prevArrow: $('.c-project-carousel__btn--back'),
     nextArrow: $('.c-project-carousel__btn--next'),
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
   });
   $('.c-portrait-carousel__slides').slick({
     arrows: false,
@@ -31,7 +28,6 @@ $(document).ready(function (){
     dotsClass: 'c-portrait-carousel__dot-container',
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
   });
   $('.c-card-carousel__slides').slick({
     arrows: false,
@@ -39,7 +35,6 @@ $(document).ready(function (){
     dotsClass: 'c-card-carousel__dot-container',
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
   });
 
 });

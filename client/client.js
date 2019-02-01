@@ -3,6 +3,10 @@ $(document).ready(function (){
     $(this).fadeOut('slow');
   });
 
+  $(document).on('click', '.c-nav__menu-btn, .c-nav__close-btn', function() {
+    $('.c-nav').toggleClass('active');
+  });
+
   $('.c-hero .c-carousel').slick({
     autoplay: true,
     autoplaySpeed: 5000,

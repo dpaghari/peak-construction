@@ -8,9 +8,11 @@
   font-family: DrukTextWideBold, sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 %cta--ghost {
+  cursor: pointer;
   background: none;
   padding: 18px 36px;
   z-index: 3;

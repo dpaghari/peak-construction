@@ -19,10 +19,30 @@ a {
 }
 
 .container {
-  max-width: 1448px;
+  box-sizing: border-box;
+  width: 100%;
   margin: 0 auto;
+  @media (min-width: 1600px) {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
+  @media (min-width: 1200px) and (max-width: 1600) {
+    max-width: 1140px;
+    padding: 0 15px;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    max-width: 960px;
+    padding: 0 15px;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    max-width: 720px;
+    padding: 0 15px;
+  }
+  @media (min-width: 576px) and (max-width: 768px) {
+    max-width: 540px;
+    padding: 0 15px;
+  }
 }
-
 
 .site-wrapper {
   width: 100%;

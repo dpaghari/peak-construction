@@ -37,20 +37,40 @@ $(document).ready(function (){
     arrows: false,
     dots: true,
     dotsClass: 'c-portrait-carousel__dot-container',
-    slidesToShow: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     infinite: true,
     centerMode: true,
     centerPadding: '20px',
+    responsive: [
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
     
   $('.c-card-carousel__slides').slick({
     arrows: false,
     dots: true,
     dotsClass: 'c-card-carousel__dot-container',
-    slidesToShow: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     infinite: true,
     centerMode: true,
     centerPadding: '20px',
+    responsive: [
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
 });

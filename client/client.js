@@ -33,6 +33,13 @@ $(document).ready(function (){
     slidesToShow: 1,
     infinite: true,
   });
+  $('.c-project__image-slides').slick({
+    arrows: false,
+    dots: true,
+    dotsClass: 'c-project__dot-container',
+    slidesToShow: 1,
+    infinite: false,
+  });
   $('.c-portrait-carousel__slides').slick({
     arrows: false,
     dots: true,

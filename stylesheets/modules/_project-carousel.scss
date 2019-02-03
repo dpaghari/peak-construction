@@ -26,6 +26,14 @@
   }
 }
 
+.c-project-carousel__slides {
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: $tablet) {
+    width: 60%;
+  }
+ }
+
 .c-project {
   padding-bottom: 12px;
 }
@@ -39,14 +47,38 @@
   margin: 5% auto;
 }
 
+.c-project__image-slide-wrap {
+  position: relative;
+  max-height: 325px;
+}
+
+.c-project__image-slides {
+
+}
+
+.c-project__dot-container {
+  @extend %dot-container;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  @media screen and (min-width: $tablet) {
+    bottom: 26%;
+  }
+}
+
 .c-project__img {
   width: 100%;
-  height: 280px;
   margin: 5% auto;
+  img {
+    width: 100%;
+    height: 280px;
+  }
 }
 
 .c-project__details {
   margin-left: 10%;
+  margin-top: 12%;
   .c-read-more {
     margin-left: 0;
   }

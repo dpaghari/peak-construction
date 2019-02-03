@@ -1,6 +1,11 @@
 .c-img-callout {
-  
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   &--masked {
+    @extend .c-img-callout;
     position: relative;
     img {
       width: 100%;

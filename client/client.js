@@ -5,6 +5,11 @@ $(document).ready(function (){
 
   $(document).on('click', '.c-nav__menu-btn, .c-nav__close-btn', function() {
     $('.c-nav').toggleClass('active');
+    $('.c-search').toggleClass('hide');
+  });
+  $(document).on('click', '.c-search__btn, .c-search__close-btn', function() {
+    $('.c-search').toggleClass('active');
+    $('.c-nav').toggleClass('hide');
   });
 
   $('.c-hero .c-carousel').slick({

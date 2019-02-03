@@ -5,6 +5,10 @@
   z-index: 4;
   overflow: visible;
   cursor: pointer;
+  &.hide {
+    display: none;
+  }
+
   &.active {
     .c-nav__link-wrapper {
       top: 0;

@@ -1,9 +1,50 @@
 .c-img-callout {
   
   &--masked {
+    position: relative;
     img {
       width: 100%;
     }
+    &:after, &:before {
+      position: absolute;
+      content: "";
+      background: white;
+    }
+  }
+
+  &--masked-left {
+    @extend .c-img-callout--masked;
+    &:before {
+      left: 0;
+      top: 0;
+      right: 50%;
+      bottom: 70%;
+      width: 50%;
+    }  
+    &:after {
+      left: 0;
+      top: 80%;
+      right: 50%;
+      bottom: 0;
+      width: 50%;
+    }  
+  }
+  &--masked-right {
+    @extend .c-img-callout--masked;  
+    &:before {
+      left: 50%;
+      top: 0;
+      right: 0;
+      bottom: 85%;
+      width: 100%;
+    }  
+    &:after {
+      left: 50%;
+      top: 55%;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+    }  
   }
   
 }

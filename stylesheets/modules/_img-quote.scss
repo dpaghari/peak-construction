@@ -2,6 +2,8 @@
   min-height: 40vh;
   background: $winterWhite;
   padding: 24px 0;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .c-img-quote__quote {
@@ -12,5 +14,10 @@
   line-height: 3.2rem;
   p {
     font-family: OpenSansBold, sans-serif;
+  }
+
+  @media screen and (min-width: $tablet) {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
   }
 }

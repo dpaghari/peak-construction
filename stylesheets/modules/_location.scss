@@ -1,5 +1,7 @@
 .c-location {
-
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .c-location__headline {
@@ -45,7 +47,11 @@
   letter-spacing: 0.1rem;
   padding-bottom: 4px;
   width: 100%;
-  max-width: 200px;
   display: inline-block;
   overflow-wrap: break-word;
+  max-width: 200px; 
+  @media screen and (min-width: $tablet) {
+     max-width: none;
+     margin-left: 48px;
+  }
 }

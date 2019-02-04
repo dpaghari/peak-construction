@@ -4,6 +4,7 @@
 
 .c-footer__link-container {
   padding: 10% 0;
+  width: 100%;
 }
 
 .c-footer__link {
@@ -11,9 +12,16 @@
   text-decoration: underline;
   font-family: OpenSansSemiBold, sans-serif;
   color: white;
-  width: 240px;
   margin: 0 auto 0 10%;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
+  width: 50%;
+  @media screen and (min-width: $tablet) {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }

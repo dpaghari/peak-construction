@@ -20,6 +20,10 @@
   margin-left: 33%;
   width: 100%;
   max-width: 120px;
+  @media screen and (min-width: $tablet) {
+    margin-top: 0;
+    margin-left: 10%;
+  }
 }
 
 .c-hero__headline {

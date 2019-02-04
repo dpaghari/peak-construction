@@ -4,6 +4,7 @@
   top: 24px;
   z-index: 4;
   cursor: pointer;
+  
 
   &.hide {
     display: none;
@@ -36,12 +37,30 @@
   }
 }
 
-.c-search__icon {
+.c-search__btn {
+  background: none;
+  border: 0;
+}
+
+.c-search__svg-wrap {
+  margin-left: auto;
+}
+
+.c-search__svg {
   width: 24px;
   height: 24px;
   path {
     fill: #fff;
   }
+}
+
+.c-search__expanded-header {
+  @extend .c-nav__expanded-header;
+}
+
+.c-search__logo {
+  width: 240px;
+  display: block;
 }
 
 .c-search__close-btn {
@@ -61,19 +80,36 @@
   width: 85%;
   margin: 12% auto;
   display: flex;
-  svg {
-    width: 25%;
-    path {
-      fill: black;
-    }
+  @media screen and (min-width: $tablet) {
+    margin: 6% auto;
   }
+  
 }
+
+
 
 .c-search__input {
   font-family: OpenSans;
   font-size: 1.2rem;
   width: 75%;
   display: inline-block;
+  border: 0;
+  @media screen and (min-width: $tablet) {
+    font-size: 2rem;
+  } 
+}
+
+.c-search__input-icon {
+  width: 24px;
+  height: 24px;
+  path {
+    fill: black;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .c-search__count {
@@ -82,18 +118,26 @@
   color: $aNiceGray;
   font-size: 1.4rem;
   font-family: DrukTextBold;
+  @media screen and (min-width: $tablet) {
+    font-size: 2rem;
+  }
 }
 
 .c-search__list {
   margin-left: 6%;
   padding: 0;
   list-style-type: none;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .c-search__list-item {
   @extend .c-arrow-links__link;
   width: 95%;
   margin: 0 auto 0 0;
+  @media screen and (min-width: $tablet) {
+    margin: 0 auto;
+  }
 
   .c-search__arrow {
     @extend .c-arrow-links__arrow;

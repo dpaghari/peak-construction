@@ -3,7 +3,14 @@
   font-size: 1.4rem;
   text-decoration: underline;
   text-decoration-color: $peakYellow;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  
+  &__cross {
+    margin-right: 12px;
+    width: 36px;
+  }
 }
 
 .c-headline {

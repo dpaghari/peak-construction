@@ -5,7 +5,10 @@
 }
 
 .c-location__headline {
-  margin-left: 20%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 12%;
+  }
 }
 .c-location__subheadline {
   margin-left: 20%;

@@ -10,10 +10,24 @@
 }
 
 .c-text-callout__headline {
-  margin: 12% auto 5% 12%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 12%;
+  }
 }
 
 .c-text-callout__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  .c-text-callout__headline {
+    margin-left: -4%;
+    @media screen and (min-width: $tablet) {
+      margin-left: 3%;
+    }
+  }
+}
+
+.c-text-callout__slide {
   width: 80%;
   margin: 0 auto;
 }

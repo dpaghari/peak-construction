@@ -6,7 +6,10 @@
   text-decoration: underline;
   text-decoration-color: $peakYellow;
   width: 100px;
-  margin-left: 20%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 16%;
+  }
 }
 
 .c-newsletter__copy {

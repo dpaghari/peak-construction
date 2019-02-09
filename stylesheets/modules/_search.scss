@@ -11,6 +11,7 @@
   }
 
   &.active {
+    position: fixed;
     .c-search__results {
       display: flex;
       position: fixed;
@@ -73,6 +74,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .c-search__input-wrapper {
@@ -92,9 +94,12 @@
 .c-search__input {
   font-family: OpenSans;
   font-size: 1.2rem;
-  width: 75%;
+  width: 100%;
   display: inline-block;
   border: 0;
+  &:focus {
+    outline: none;
+  }
   @media screen and (min-width: $tablet) {
     font-size: 2rem;
   } 

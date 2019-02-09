@@ -3,7 +3,10 @@
 }
 
 .c-portrait-carousel__headline {
-  margin-left: 20%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 16%;
+  }
 }
 .c-portrait-carousel__subheadline {
   margin-left: 20%;

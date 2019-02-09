@@ -4,7 +4,10 @@
 }
 
 .c-project-carousel__headline {
-  margin: 12% auto 5% 20%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 12%;
+  }
 }
 
 .c-project-carousel__btn {
@@ -45,6 +48,9 @@
 .c-project__map-img {
   width: 55%;
   margin: 5% auto;
+  @media screen and (min-width: $tablet) {
+    width: 100%;
+  }
 }
 
 .c-project__image-slide-wrap {

@@ -3,7 +3,10 @@
 }
 
 .c-arrow-links__headline {
-  margin-left: 20%;
+  margin-left: 8%;
+  @media screen and (min-width: $tablet) {
+    margin-left: 16%;
+  }
 }
 
 .c-arrow-links__link {

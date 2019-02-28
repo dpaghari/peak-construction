@@ -80,4 +80,10 @@ $(document).ready(function (){
     ]
   });
 
+// Parallax test with JS for mobile(ends up getting disabled on mobile)
+// CSS seems to "feel" better in general is my two cents
+  // $('.first-image').parallax({ imageSrc: 'assets/construction-2.jpg' });
+  // $('.second-image').parallax({ imageSrc: 'assets/construction-3.jpg' });
+
+
 });
